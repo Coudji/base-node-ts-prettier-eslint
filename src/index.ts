@@ -1,4 +1,4 @@
-async function init () {
+async function init() {
     console.log("initialisation");
 }
 

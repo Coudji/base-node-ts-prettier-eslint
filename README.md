@@ -7,6 +7,7 @@
 ```
 git clone https://github.com/Coudji/base-node-ts-prettier-eslint.git
 ```
+
 ```
 rm -rf .git
 git init
@@ -48,4 +49,10 @@ npm run build
 
 ```bash
 npm run start
+```
+
+### Lint
+
+```bash
+    pnpm lint
 ```

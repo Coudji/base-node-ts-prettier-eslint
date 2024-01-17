@@ -1,37 +1,41 @@
 {
-  "name": "boilerplate",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "build": "npx tsc",
-    "start": "node dist/index.js",
-    "dev": "echo 'Lancé en mode dev' && nodemon",
-    "dev2": "node --loader ts-node/esm src/index.ts",
-    "lint" : "npm eslint"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Coudji/base-node-ts-prettier-eslint.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Coudji/base-node-ts-prettier-eslint/issues"
-  },
-  "homepage": "https://github.com/Coudji/base-node-ts-prettier-eslint#readme",
-  "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^6.19.0",
-    "@typescript-eslint/parser": "^6.19.0",
-    "eslint": "^8.56.0",
-    "eslint-config-standard-with-typescript": "^43.0.0",
-    "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-n": "^16.6.2",
-    "eslint-plugin-promise": "^6.1.1",
-    "nodemon": "^3.0.3",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.3.3"
-  }
+    "name": "boilerplate",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "build": "npx tsc",
+        "start": "node dist/index.js",
+        "dev": "echo 'Lancé en mode dev' && nodemon",
+        "dev2": "node --loader ts-node/esm src/index.ts",
+        "lint": "npx eslint .",
+        "lint:fix": "npx eslint . --fix",
+        "format": "npx prettier . --write"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Coudji/base-node-ts-prettier-eslint.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Coudji/base-node-ts-prettier-eslint/issues"
+    },
+    "homepage": "https://github.com/Coudji/base-node-ts-prettier-eslint#readme",
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^6.19.0",
+        "@typescript-eslint/parser": "^6.19.0",
+        "eslint": "^8.56.0",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-config-standard-with-typescript": "^43.0.0",
+        "eslint-plugin-import": "^2.29.1",
+        "eslint-plugin-n": "^16.6.2",
+        "eslint-plugin-promise": "^6.1.1",
+        "nodemon": "^3.0.3",
+        "prettier": "^3.2.4",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.3.3"
+    }
 }
