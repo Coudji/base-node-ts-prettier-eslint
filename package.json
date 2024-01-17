@@ -1,0 +1,28 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "dev":"echo 'Lancé en mode dev' && nodemon",
+    "dev2": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Coudji/base-node-ts-prettier-eslint.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Coudji/base-node-ts-prettier-eslint/issues"
+  },
+  "homepage": "https://github.com/Coudji/base-node-ts-prettier-eslint#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
