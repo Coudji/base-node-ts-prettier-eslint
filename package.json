@@ -11,7 +11,8 @@
         "dev2": "node --loader ts-node/esm src/index.ts",
         "lint": "npx eslint .",
         "lint:fix": "npx eslint . --fix",
-        "format": "npx prettier . --write"
+        "format": "npx prettier . --write",
+        "prepare": "npx husky install"
     },
     "repository": {
         "type": "git",
@@ -33,6 +34,7 @@
         "eslint-plugin-import": "^2.29.1",
         "eslint-plugin-n": "^16.6.2",
         "eslint-plugin-promise": "^6.1.1",
+        "husky": "^8.0.3",
         "nodemon": "^3.0.3",
         "prettier": "^3.2.4",
         "ts-node": "^10.9.2",
